@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+}
+h1 {
+  color: rgb(138, 78, 4);
+  text-align: center;
+}
+form {
+  border: 4px solid rgb(30, 84, 3);
+  box-shadow: 10px 10px 8px 10px #888888;
+  padding: 10px;
+}
+table {
+  width: 100%;
+}
+td {
+  font-size: 20px;
+  padding: 10px;
+}
+tbody tr:nth-child(7) td:nth-child(2) button {
+  background-color: blue;
+}
