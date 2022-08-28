@@ -70,7 +70,10 @@
         </table>
 
     </form>
+    <?php
+    echo "<br/>";
 
+    ?>
 </body>
 
 </html>
