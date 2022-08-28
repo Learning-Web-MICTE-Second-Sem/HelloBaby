@@ -33,8 +33,8 @@
     if (mysqli_query($conn, $sql)) {
         echo "<h3>Data stored in a database successfully.</h3>";
         echo "\n<h4>Recently inserted data : </h4>";
-        echo ("\n$mothers_name\n $dob\n "
-            . "$birth_time\n $gender\n $address");
+        echo ("\t$mothers_name\t $dob\t "
+            . "$birth_time\t $gender\t $address");
     } else {
         echo "ERROR: Sorry $sql. "
             . mysqli_error($conn);
